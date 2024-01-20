@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #page-wrapper {
+    position: relative;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: flex;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    min-height: 40px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: black;
+  }
+  nav {
+    font-weight: 400;
+  }
+  .nav-link{
+    color: #0072B8;
+    font-weight:strong;
+    font-size: 14pt;
+  }
+  
+  nav > ul {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 2rem;
+  }
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+  }
+  
+  #AboutMe{
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  #Education{
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  #Experience{
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  #Skills{
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  #Projects{
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  #ContactInformation{
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
