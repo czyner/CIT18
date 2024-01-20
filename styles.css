@@ -67,34 +67,35 @@
     padding: 2rem;
   }
   
-  #AboutMe{
+  #AboutMe, #Education, #Experience, #Skills, #Projects, #ContactInformation{
     margin-top: 50px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: 100%;
+    width: 100%;
+    height: 100vh;
   }
 
   #Education{
-    margin-top: 30px;
-    padding: 20px;
+ 
   }
 
   #Experience{
-    margin-top: 30px;
-    padding: 20px;
+
   }
 
   #Skills{
-    margin-top: 30px;
-    padding: 20px;
+
   }
 
   #Projects{
-    margin-top: 30px;
-    padding: 20px;
+
   }
 
   #ContactInformation{
-    margin-top: 30px;
-    padding: 20px;
+ 
   }
   
   footer {
